@@ -1,1 +1,6 @@
-document.write('<h1>Stars Wars API</h1>');
+import React from 'react';
+import ReactDom from 'react-dom';
+
+import App from './components/app';
+
+ReactDom.render(<App/>, document.getElementById('root'));
